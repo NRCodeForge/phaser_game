@@ -1,0 +1,42 @@
+body {
+    background-color: black;
+}
+#menü{
+    display: flex;
+}
+#menü-buttons{
+    align-items: center;
+    width: 20rem;
+}
+button{
+    position: relative;
+    text-align: center;
+    width: 10rem;
+    height: 2rem;
+    top: 10%;
+    right: 890px;
+    background-color: rgb(255, 51, 255);
+    
+}
+#tx{
+    position: relative;
+    font-size: 48pt;
+    top: -600px;
+    right: 0%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: rgb(186, 253, 1);
+    
+}
+#game-over{
+    position: relative;
+    font-size: 48pt;
+    top: -600px;
+    right: 0%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: rgb(255, 0, 0);
+}
+canvas{
+    margin: 5rem;
+}
